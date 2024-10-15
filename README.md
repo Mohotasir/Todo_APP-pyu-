@@ -34,7 +34,18 @@ python manage.py runserver
 
 ```
 ------------------------------------------------------
-
+1. migrate the database
+```bash
+python manage.py migrate
+```
+2.create super user
+```bash
+python manage.py createsuperuser
+```
+3. if changes occur in models
+```bash
+python manage.py makemigrations
+```
 
 
 
